@@ -1,0 +1,14 @@
+1. WAPT takes number from user and print the sum of Last and First Digit of that Number.
+
+For Ex. 275 
+Output : 7
+
+2. WAPT that takes Number from user and print the table of that Number.
+
+3. WAP to print all leap years from given range.
+
+4. WAP to Check wether Number is Prime or Not.
+
+5. WAP to print the Largest DIgit from Number.
+For Ex. 275 
+Output : 7
