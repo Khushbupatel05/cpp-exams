@@ -28,47 +28,26 @@ int main(){
     switch (choice)
     {
     case 1 :
-       cout << "enetr first no :" ;
-       cin >> n1 ;
 
-        cout << "enetr seconed no :" ;
-        cin >> n2 ;
         add(n1 , n2 ,a );
         break;
 
     case 2 :
-       cout << "enetr first no :" ;
-       cin >> n1 ;
-
-        cout << "enetr seconed no :" ;
-        cin >> n2 ;
+      
         sub(n1 , n2 ,a );
         break;
 
     case 3 :
 
-        cout << "enetr first no :" ;
-        cin >> n1 ;
-
-        cout << "enetr seconed no :" ;
-        cin >> n2 ;
         mul(n1 , n2 , a );
         break;
         
     case 4 :
-        cout << "enetr first no :" ;
-        cin >> n1 ;
-
-        cout << "enetr seconed no :" ;
-        cin >> n2 ;
+      
         divison(n1 , n2 , a );
         break;
     case 5 :
-      cout << "enetr first no :" ;
-      cin >> n1 ;
-
-      cout << "enetr seconed no :" ;
-       cin >> n2 ;
+    
        mod(n1 , n2 ,a );
         break;
 
@@ -86,27 +65,27 @@ int main(){
 }
 void add(int a , int b , int ans){
     ans = a + b ;
-    cout << "addition is : " << a << b << ans << endl ;
+    cout << "addition of " << a<<" and " << b <<" is " << ans << endl ;
 }
 
 void sub(int a , int b , int ans){
     ans = 0 ;
     ans = a - b ;
-    cout << "sub is : " << a << b << ans << endl ;
+   cout << "subtraction of " << a<<" and " << b <<" is " << ans << endl ;
 }
 void mul(int a , int b , int ans){
     ans = 0 ;
     ans = a * b ;
-    cout << "multiple is : " << a << b << ans << endl ;
+    cout << "multiplication of " << a<<" and " << b <<" is " << ans << endl ;
 }
 void divison(int a , int b , int ans){
     ans = 0 ;
     ans = a / b ;
-    cout << "divison is : " << a << b << ans << endl ;
+    cout << "division of " << a<<" and " << b <<" is " << ans << endl ;
 }
 
 void mod(int a , int b , int ans){
     ans = a % b ;
-    cout << "modular is : " << a << b << ans  ;
+    cout << "modulo of " << a<<" and " << b <<" is " << ans << endl ;
 }
 
